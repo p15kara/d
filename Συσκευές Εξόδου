@@ -1,0 +1,13 @@
+---
+layout: slides 
+title: Epson-MX80
+image_url: /images/LMtXpdcyk2_9508_preview_465_400.jpg
+
+caption: "Ο Epson MX-80 ήταν ένας από τους πρώτους πολύ επιτυχημένους καταναλωτικούς εκτυπωτές dot-matrix. Εισήχθη τον Οκτώβριο του 1980 από την Shinshu Seiki Co., Ltd. (αργότερα γνωστή ως Epson Corporation) του Ναγκάνο της Ιαπωνίας. Ο Epson MX-80 ήταν ο εκτυπωτής με τις περισσότερες πωλήσεις στις Ηνωμένες Πολιτείες και την Ιαπωνία και έγινε συνώνυμος με τους εκτυπωτές dot-matrix."
+slides:
+  - paper-simulation
+  - troff
+  - 
+  - 
+  - 
+---
