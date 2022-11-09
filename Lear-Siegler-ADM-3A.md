@@ -1,6 +1,6 @@
 ---
 author: p15kara
-image_url: /images/800px-Lear_Siegler_ADM-3A-1.png
+image_url: /images/Lear-Siegler-ADM-3A.jpg
 title: Υπολογιστής Lear Siegler ADM 3A. 
 year: 1992 
 caption: "Το τερματικό Lear Siegler ADM-3A είναι μια διευρυμένη έκδοση του τερματικού ADM-3.
