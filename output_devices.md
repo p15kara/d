@@ -6,5 +6,5 @@ caption: "Με τον όρο συσκευή εξόδου στους Η/Υ ενν
 slides:
   - paper-simulation
   - troff
-  - epson-80mx
+  - epson_80mx
 ---
