@@ -16,7 +16,7 @@ categories:
   - Μορφές
   - Επεξεργαστής Κειμένου
 tags:
-  - Lear Siegler 
+  - Lear-Siegler 
   - Terminal 
   - ADM 3A 
 ---
