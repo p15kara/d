@@ -4,6 +4,7 @@ title: Μορφές
 image_url: /images/apple-newton.jpg
 caption: Διαφάνειες για το κεφάλαιο Μορφές 
 slides:
+  - apple-newton
   - linc-pc
   - nls-desk
   - pdp-11-tty-unix
