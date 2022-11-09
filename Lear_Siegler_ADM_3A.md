@@ -16,6 +16,7 @@ categories:
   - Μορφές
   - Επεξεργαστής Κειμένου
 tags:
+  - Lear-Siegler-ADM-3A
   - Υπολογιστής Lear Siegler ADM 3A
   - Terminal 
   - ADM 3A 
