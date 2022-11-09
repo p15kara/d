@@ -12,4 +12,5 @@ categories:
 tags:
   - Εκτυπωτής Epson 80mx
   - εκτυπωτής
+  - epson-mx80
 ---
