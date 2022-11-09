@@ -20,5 +20,5 @@ events:
   - oberon
   - sam-editor
   - acme-editor
-  - epson_80mx
+  - epson-80mx
 ---
