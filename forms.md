@@ -18,6 +18,6 @@ slides:
   - bbc-micro
   - apple-newton
   - iphone-jobs
-  - Lear_Siegler_ADM_3A
+  - Lear-Siegler-ADM-3A
 ---
 
