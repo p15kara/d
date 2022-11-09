@@ -10,6 +10,6 @@ categories:
   - Εργαλεία
   - Μοντέλα
 tags:
-  - Epson 80MX
+  - Εκτυπωτής Epson 80mx
   - εκτυπωτής
 ---
