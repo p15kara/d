@@ -1,0 +1,83 @@
+
+Έχετε ένα νέο μήνυμα.
+
+Μετάβαση απευθείας στο περιεχόμενο
+Χρήση του Gmail με αναγνώστες οθόνης
+Συζητήσεις
+
+Χρησιμοποιούνται 0,01 GB από το όριο των 15 GB
+Όροι · Απόρρητο · Πολιτικές προγράμματος
+Πρόσφατη δραστηριότητα λογαριασμού: πριν από 2 ώρες
+Λεπτομέρειες
+
+#! /bin/bash
+
+echo hello
+echo "Afto einai to shellsrcipt arxeio pou mou zhththike gia thn ergasia"
+
+#deikse to menu epiloghs
+echo "Dialekse poia epilogh theleis
+       a)epub
+       b)myReport"
+read prwth_epilogh
+
+if [ "$prwth_epilogh" = "a" ]; then
+  echo "Menu epiloghs gia book.epub
+       a)tex
+       b)html
+       c)txt
+       dialekse poia epilogh theleis:"
+  read defterh_epilogh
+
+  if [ "$defterh_epilogh" = "a" ]; then
+    echo "kanoume convert to epub se tex"
+    pandoc -s book.epub -o book.tex
+    echo "Epityxia!!Briskeste sto directory:"
+    ls
+    vim book.tex
+
+  elif [ "$defterh_epilogh" = "b" ]; then
+    echo "kanoume convert to epub se html"
+    pandoc -s book.epub -o book.html
+    echo "Epityxia!!Briskeste sto directory:"
+    ls
+
+  elif [ "$defterh_epilogh" = "c" ]; then
+    echo "kanoume convert to epub se txt"
+    pandoc -s book.epub -o book.txt
+    echo "Epityxia!!Briskeste sto directory:"
+    ls
+
+  else
+    echo "Den yparxei $defterh_epilogh pou eisageis"
+  fi
+
+elif [ "$prwth_epilogh" = "b" ]; then
+  echo "Menu epiloghs gia myReport.md:
+       a)pdf
+       b)html
+       Dialekse poia epilogh theleis"
+  read defterh_epilogh
+
+  if [ "$defterh_epilogh" = "a" ]; then
+    echo "Kanoume convert to .md se .pdf"
+    pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Noto Sans Regular" --variable sansfont="Noto Sans Regular" --variable monofont="Noto Sans Regular" --variable fontsize=12pt --variable version=2.0 myReport.md --pdf-engine=xelatex --toc -o myReport.pdf
+    echo "Epityxia!!Briskeste sto directory:"
+    ls
+
+  elif [ "$defterh_epilogh" = "b" ]; then
+    echo "Kanoume convert to .md se .html"
+    pandoc -s myReport.md --metadata title="H anafora moy" -o myReport.html
+    echo "Epityxia!!Briskeste sto directory:"
+    ls
+
+  else
+    echo "Den yparxei $defterh_epilogh pou eisageis"
+  fi
+
+else
+  echo "Den yparxei h $prwth_epilogh pou eisageis"
+fi
+
+shellscript_fixed.sh
+Εμφάνιση shellscript_fixed.sh.
